@@ -71,6 +71,37 @@ catkin_make
 - [DeepPilot Models pretrained](https://github.com/QuetzalCpp/DeepPilot/releases/tag/v2.0)
 - [Datasets to train DeepPilot](https://inaoepedu-my.sharepoint.com/:f:/g/personal/carranza_inaoe_edu_mx/EslxVDqc9zBMmiV4mDH48KUBAcAHu0Ypt1rZLL6ifOjyoA?e=VYtMyT)
 
+
+## Download Datasets and Pretrained Models
+
+To use DeepPilot properly, you need to download the datasets and pretrained models. These files are available in the [Releases](https://github.com/QuetzalCpp/DeepPilot/releases/tag/v2.0) section of the original repository.
+
+### Steps to Download and Organize the Files:
+
+1. Download the `datasets.zip` and `models.zip` files from [DeepPilot Releases v2.0](https://github.com/QuetzalCpp/DeepPilot/releases/tag/v2.0).
+2. Place both files inside the `DeepPilot_network/` folder of the project.
+3. Extract the contents of both zip files by running the following commands from the root of the project:
+
+    ```bash
+    cd DeepPilot_network
+    wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/datasets.zip
+    wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/models.zip
+    unzip datasets.zip
+    unzip models.zip
+    rm datasets.zip models.zip
+    ```
+4. After extracting the files, your `DeepPilot_network/` folder should look like this:
+    ```
+    DeepPilot_network/
+    ├── dataset/
+    ├── models/
+    ├── evaluation_mosaic-6img.py
+    ├── network_libs/
+    ├── ...
+    ```
+
+Now your environment is ready to use DeepPilot with the provided datasets and models.
+
 ### Train DeepPilot
 
 ```bash
