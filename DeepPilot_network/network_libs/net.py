@@ -1,7 +1,8 @@
 from keras.layers import Input, Dense, Convolution2D, Conv2D
 from keras.layers import MaxPooling2D, AveragePooling2D
 from keras.layers import ZeroPadding2D, Dropout, Flatten
-from keras.layers import merge, Reshape, Activation, BatchNormalization
+# from keras.layers import merge, Reshape, Activation, BatchNormalization
+from keras.layers import Reshape, Activation, BatchNormalization
 from keras.layers import concatenate
 from keras import backend as K
 from keras.models import Model

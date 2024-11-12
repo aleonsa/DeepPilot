@@ -1,5 +1,5 @@
 imutils
 tqdm
-sklearn
+scikit-learn
 pandas
 configparser
