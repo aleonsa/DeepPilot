@@ -87,7 +87,7 @@ To use DeepPilot properly, you need to download the datasets and pretrained mode
     wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/dataset.zip
     wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/models.zip
 
-    unzip datasets.zip
+    unzip dataset.zip
     unzip models.zip
     
     rm datasets.zip models.zip
