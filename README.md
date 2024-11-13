@@ -90,7 +90,7 @@ To use DeepPilot properly, you need to download the datasets and pretrained mode
     unzip dataset.zip
     unzip models.zip
     
-    rm datasets.zip models.zip
+    rm dataset.zip models.zip
     ```
 4. After extracting the files, your `DeepPilot_network/` folder should look like this:
     ```
