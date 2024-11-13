@@ -84,13 +84,21 @@ To use DeepPilot properly, you need to download the datasets and pretrained mode
 
     ```bash
     cd ~/bebop_ws/src/DeepPilot/DeepPilot_network
+
+    # Download datasets and models
     wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/dataset.zip
     wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/models.zip
-
+    
+    # Download the additional file
+    wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/posenet.npy
+    
+    # Extract zip files
     unzip dataset.zip
     unzip models.zip
     
+    # Remove the zip files to save space
     rm dataset.zip models.zip
+
     ```
 4. After extracting the files, your `DeepPilot_network/` folder should look like this:
     ```
