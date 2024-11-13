@@ -1,0 +1,41 @@
+# Excluir datasets y modelos pesados
+DeepPilot_network/dataset/
+DeepPilot_network/models/
+DeepPilot_network/posenet.npy
+
+# Excluir Python caches
+*.pyc
+__pycache__/
+
+# Excluir virtual environments
+venv/
+.env/
+*.env
+
+# Archivos generados por ROS o Gazebo
+*.log
+*.bag
+*.active
+.build_log
+core/
+
+# Excluir configuraciones locales de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema innecesarios
+.DS_Store
+Thumbs.db
+
+# Excluir archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Excluir configuraciones específicas de usuario
+*.swp
+*.bak
+*.tmp

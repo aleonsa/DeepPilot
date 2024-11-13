@@ -48,7 +48,7 @@ class DeepPilot:
 		#======= DeepPilot
 		K.clear_session() # Clear previous models from memory.
 		
-		adam = Adam(lr=0.0001, beta_1=0.9, beta_2=0.999, epsilon=1e-08, decay=0.0, clipvalue=2.0)
+		adam = Adam(lr=0.0001, beta_1=0.9, beta_2=0.999, epsilon=1e-08, clipvalue=2.0)
 		
 		#roll_pitch
 		global model1 
