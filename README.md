@@ -83,11 +83,13 @@ To use DeepPilot properly, you need to download the datasets and pretrained mode
 3. Extract the contents of both zip files by running the following commands from the root of the project:
 
     ```bash
-    cd DeepPilot_network
-    wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/datasets.zip
+    cd ~/bebop_ws/src/DeepPilot/DeepPilot_network
+    wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/dataset.zip
     wget https://github.com/QuetzalCpp/DeepPilot/releases/download/v2.0/models.zip
+
     unzip datasets.zip
     unzip models.zip
+    
     rm datasets.zip models.zip
     ```
 4. After extracting the files, your `DeepPilot_network/` folder should look like this:
